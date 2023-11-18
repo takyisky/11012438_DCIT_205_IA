@@ -1,0 +1,28 @@
+
+.csLogo{
+    width: 500px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 387px;
+}
+.rightalign{
+    display: inline-block;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkcyan;
+    font-size: 21px;
+    margin-left: 355px;
+    padding-right: 35px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #464242;
+
+}
+
+.homepage{
+    background-image: url();
+    color: #000000; 
+    padding-top: 10px;
+    text-align: center;
+
+}
