@@ -179,3 +179,48 @@
     font-family:Arial, Helvetica, sans-serif; 
     -webkit-text-stroke: 1px antiquewhite;
 }
+
+.fixedtopbuttonstyle{
+    background-color: white;
+    border-color: rgb(81, 222, 247);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(12, 140, 219);
+    height: 30px;
+    width: 80px;
+    border-radius: 2px;
+    cursor:pointer;
+    margin-right: 25px;
+    transition: background-color 0.5s, color 0.5s, box-shadow 0.5s;
+    font-size: 25px;
+    font-weight:bold;
+}
+
+.fixedtopbuttonstyle:hover{
+    background-color: rgb(51, 195, 220);
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Styles for the gallery */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  /* Styles for each image */
+  .image {
+    margin: 10px;
+  }
+  
+  /* Ensure images fit nicely */
+  .image img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
