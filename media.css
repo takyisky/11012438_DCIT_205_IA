@@ -194,18 +194,48 @@
     transition: background-color 0.5s, color 0.5s, box-shadow 0.5s;
     font-size: 25px;
     font-weight:bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .fixedtopbuttonstyle:hover{
     background-color: rgb(51, 195, 220);
     color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
+
+/*Css Image Slider*/
+
+
+
+/*Images Pacements*/
+* {
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  
+  .column {
+    float: left;
+    width: 32.33%;
+    padding: 5px;
+    margin: 5px;
+    transition: box-shadow 1s;
+  }
+
+  .column:hover{
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 
   /*Fotter*/
   .footer{
-    background-color: rgb(35, 35, 112);
+    background-color: rgb(51, 195, 220);
     clip-path: polygon(46% 29%, 60% 3%, 100% 0, 100% 100%, 0 100%, 0 18%);
     padding-bottom: 80px;
 }
