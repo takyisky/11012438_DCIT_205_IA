@@ -10,19 +10,19 @@
 <body>
     <div>
         <Header>
-        <img class="csLogo" src="comScience_logo.png" alt="comScience_logo">
+        <img class="csLogo" src="/images/comScience_logo.png" alt="comScience_logo">
         
         <div class = "menubuttons">
-            <button class = "home-button">
+            <button class = "home-button" type="button" onclick="location.href='index.html'">
                 Home
             </button>
-            <button class="about-button">
+            <button class="about-button" type="button" onclick="location.href='about1.html'">
                 About
             </button>
-            <button class="academics-button">
+            <button class="academics-button" type="button" onclick="location.href='academics.html'">
                 Academics
             </button>
-            <button class="mediaandpress-button">
+            <button class="mediaandpress-button" type="button" onclick="location.href='media.html'">
                 Media
             </button>
         </div>
@@ -34,7 +34,12 @@
             <p><br></p>
         </div>
 
-        <img class="DCSimg1" src="DCS img1.jpeg" alt="DCSimg1">
+        <!--Move to the top of page-->
+        <div class="fixedtopbutton" style="margin-left: 1110px;">
+            <button class="fixedtopbuttonstyle" type="button" onclick="location.href='about1.html'" style="position: fixed; margin-top: 260px; z-index: 2;">TOP</button>
+        </div>
+
+        <img class="DCSimg1" src="/images/DCS img1.jpeg" alt="DCSimg1">
         <div class="briefonCS">
             <h1 class="BriefonCSHeader">Your gate way to the world class computer science education.</h1>
             <p>Computer science deals with the theory and practice of algorithms, from idealized mathematical procedures to the computer systems deployed by major tech companies to answer billions of user requests per day.
@@ -48,7 +53,7 @@
                 address the critical societal problems of our era, including opportunity access, climate change, disease,
                 inequality and polarization.</p>
         </div>
-        <img class="DCSimg2" src="DCS img2.jpeg" alt="DCSimg1">
+        <img class="DCSimg2" src="/images/DCS img2.jpeg" alt="DCSimg1">
     <!--Video will be here-->
     </div>
     

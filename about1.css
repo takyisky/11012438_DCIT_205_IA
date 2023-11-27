@@ -24,7 +24,7 @@
     text-align: center;
     vertical-align: top;
     border-radius: 4px;
-    background-image: url(blue-binary-code-digital-symbols.webp);
+    background-image: url(/images/blue-binary-code-digital-symbols.webp);
 }
 
 .welcomingheader{
@@ -41,7 +41,7 @@
     text-align: center;
     border-radius: 4px;
     vertical-align: auto;
-    background-image: url(blue-binary-code-digital-symbols.webp);
+    background-image: url(/images/blue-binary-code-digital-symbols.webp);
     font-family:Arial, Helvetica, sans-serif; 
     -webkit-text-stroke: 1px antiquewhite;
 }
@@ -175,13 +175,13 @@
     text-align: center;
     border-radius: 4px;
     vertical-align: auto;
-    background-image: url(blue-binary-code-digital-symbols.webp);
+    background-image: url(/images/blue-binary-code-digital-symbols.webp);
     font-family:Arial, Helvetica, sans-serif; 
     -webkit-text-stroke: 1px antiquewhite;
 }
 
 .aboutUsBlurBackground{
-    background-image: url(DCS\ img1.jpeg);
+    background-image: url(/images/DCS\ img1.jpeg);
     width: 1240px;
     height: 300px;
     background-position: center;
@@ -198,7 +198,7 @@
     font-weight: bold;
     border: 3px solid #f1f1f1;
     position: absolute;
-    top: 58%;
+    top: 42.2%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -231,9 +231,44 @@
     font-size: 20px;
 }
 
+/*Css for move to the top of page*/
+.fixedtopbuttonstyle{
+    background-color: white;
+    border-color: rgb(81, 222, 247);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(12, 140, 219);
+    height: 36px;
+    width: 100px;
+    border-radius: 2px;
+    cursor:pointer;
+    margin-right: 25px;
+    transition: background-color 0.5s, color 0.5s, box-shadow 0.5s;
+    font-size: 25px;
+    font-weight:bold;
+}
+
+.fixedtopbuttonstyle:hover{
+    background-color: rgb(51, 195, 220);
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.img1{
+    width:550px;
+    height:320px;
+    margin-right:15px;
+    float: left;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .img2{
     float: right;
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
 }
 
 .programingImgTxt{
@@ -251,6 +286,7 @@
 .img3{
     float: left;
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .ourCommunityTxt{
@@ -263,4 +299,5 @@
     float: right;
     border-radius: 10px;
     object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

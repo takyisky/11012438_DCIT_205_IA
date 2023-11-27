@@ -1,4 +1,3 @@
-/*Css Styles for the header*/
 .csLogo{
     width: 300px;
     display: inline-block;
@@ -11,6 +10,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
+
 
 .menubuttons{
     margin-left: 415px;
@@ -161,161 +161,21 @@
     
 }
 
-/*The Body Starts From Here*/
-.DCSimg1{
-    display: inline-block;
-    margin-top: 10px;
-    width: 50%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
-}
-.BriefonCSHeader{
-    display: block;
-    font-size: 40px;
-}
-
-.briefonCS{
-    display: inline-block;
-    margin-left: 650px;
-    margin-top: -450px;
-    width:45%;
-    vertical-align: top;
-    font-size: 30px;
-    
-}
-.DCSimg2{
-    display: inline-block;
-    margin-top: -450px;
-    vertical-align: top;
-    width: 50%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
-}
-/*Stuff Before the Fotter*/
-.beforefotter{
-    width: 100%;
-    text-align: center;
-    background-image: url(/images/DCS\ img3.jpg);
-    vertical-align: top;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   }
-   
-  .shortCourses{
-    display: inline-block;
-    margin-right: 70px;
-    padding: 3px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
-  }
-
-  h2{
-    font-family:Arial, Helvetica, sans-serif; 
-    color:  white;
-    background-color: #c4c4c4;
+.welcomingheader{
+    color: rgb(81, 222, 247);
+    width: 1223px;
+    height:40px;
+    margin-top: 10px;;
+    padding-bottom: 40px;
     padding-left: 10px;
     padding-right: 10px;
-    border-radius: 5px;
-    
-  }
-
-  h2:hover{
-    background-color: #BD9C6C;
-    color: white;
-    font-family:Arial, Helvetica, sans-serif;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: background-color 0.5s, color 0.5s;
-  }
-  .shortCoursesPara{
-    width: 200px;
-    display: inline-block;
-    color:  white;
+    border: 3px solid green;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    text-align: center;
+    border-radius: 4px;
+    vertical-align: auto;
+    background-image: url(/images/blue-binary-code-digital-symbols.webp);
     font-family:Arial, Helvetica, sans-serif; 
-    opacity: 0.5;
-    font-weight: bold;
-    text-transform: uppercase;
-    border-style: solid;
-    transition: opacity 0.3s, color 0.3s;
-    
-  }
-  .shortCoursesPara:hover{
-    opacity: 1;
-    color: #af8340;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
-  }
- 
-
-  /*Body text for the short courses side*/
-  .undergraduateProgram{
-    display: inline-block;
-    margin-right: 140px;
-    margin-left: 25px;
-    padding: 3px;
-    vertical-align: top;
-  }
-  
-  .mphilAndMscProgrammes{
-    display: inline-block;
-    margin-right: 150px;
-    padding: 3px;
-    vertical-align: top;
-  }
-  
-  .phdProgrammes{
-    display: inline-block;
-    padding: 3px;
-    vertical-align: top;
-  }
-
-/*Buttons Under the stuff before the Fotter*/
-.morebuttons{
-    vertical-align: top;
-    }
-    
-    .more{
-        color: gray;
-        opacity: 0.5;
-        border: #c4c4c4;
-        border-style: solid;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
-        transition: opacity 0.5s, color 0.5s, box-shadow 0.5s;
-    
-    }
-    .more:hover{
-        opacity: 1;
-        color: #BD9C6C;
-        box-shadow: #BD9C6C;   
-    }
-
-    .more1{
-        display:inline-block;
-        vertical-align: top;
-        margin-left: 50px;
-        Width:120px;
-        text-align: center;
-    }
-    .more2{
-        display: inline-block;
-        vertical-align: top;
-        margin-left: 175px;
-        Width:140px;
-        text-align: center;
-    }
-    .more3{
-        display: inline-block;
-        vertical-align: top;
-        margin-left: 220px;
-        Width:120px;
-        text-align: center;
-    }
-    .more4{
-        display: inline-block;
-        vertical-align: top;
-        margin-left: 240px;
-        Width:120px;
-        text-align: center;
-    }
-
-
-
+    -webkit-text-stroke: 1px antiquewhite;
+}
