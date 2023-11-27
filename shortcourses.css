@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
 .csLogo{
     width: 300px;
     display: inline-block;
@@ -241,11 +246,10 @@
         vertical-align: top;
         margin-top: 50px;
         margin-left:300px;
-        Width:120px;
+        Width:142px;
         text-align: center;
         font-family:Arial, Helvetica, sans-serif; 
         cursor: pointer;
-   
 }
 
   .shortCoursesPara{
