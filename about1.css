@@ -211,9 +211,7 @@
     color: rgb(81, 222, 247);
 
 }
-.ourOrgHead{
 
-}
 
 .aboutWelcomingParagraph{
     text-align: justify;
@@ -224,21 +222,8 @@
 
 /*Css for move to the top of page*/
 .fixedtopbuttonstyle{
-    background-color: white;
-    border-color: rgb(81, 222, 247);
-    border-style: solid;
-    border-width: 1px;
-    color: rgb(12, 140, 219);
-    height: 30px;
-    width: 80px;
-    border-radius: 2px;
-    cursor:pointer;
-    margin-right: 25px;
-    transition: background-color 0.5s, color 0.5s, box-shadow 0.5s;
-    font-size: 25px;
-    font-weight:bold;
+    font-size: larger;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
 .fixedtopbuttonstyle:hover{
