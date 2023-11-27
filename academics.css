@@ -296,7 +296,8 @@
     .more:hover{
         opacity: 1;
         color: #BD9C6C;
-        box-shadow: #BD9C6C;   
+        box-shadow: #BD9C6C;
+        cursor: pointer;   
     }
 
     .more1{
