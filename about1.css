@@ -301,3 +301,59 @@
     object-fit: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+/*Fotter*/
+.footer{
+    background-color: rgb(35, 35, 112);
+    clip-path: polygon(46% 29%, 60% 3%, 100% 0, 100% 100%, 0 100%, 0 18%);
+    padding-bottom: 80px;
+}
+.location{
+    display: inline-block;
+}
+.location-text{
+    display: inline-block;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 50px;
+    font-size: 13px;
+    vertical-align: top;
+
+}
+.footer-menu{
+    display: inline-block;
+    vertical-align: middle;
+}
+.footer-menu-text{
+    color: white;
+    margin-top: 150px;
+    vertical-align: top;
+
+}
+.footer-vertical-line{
+    border-left: 2px solid rgb(253, 253, 253);
+    height: 130px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 20px;
+    vertical-align: bottom;
+    padding-top: 20px;
+}
+ .footer-vertical-line2{
+    border-left: 2px solid rgb(253, 253, 253);
+    height: 130px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 20px;
+    vertical-align: bottom;
+    padding-top: 20px;
+}    
+.footer-admissions{
+    display: inline-block;
+    vertical-align: bottom;
+}
+.footer-admissions-list{
+    display: inline-block;
+    color: white;
+    vertical-align: bottom;
+}
