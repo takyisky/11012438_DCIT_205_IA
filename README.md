@@ -1,6 +1,6 @@
 # 11012438_DCIT_205_IA
 
-This is a website created by Emmanuel Takyi Obodai a student of the University of Ghana, on behalf of the computer science department in the Universty.
+This is a website created by Emmanuel Takyi Obodai a student of the University of Ghana, on behalf of the Computer Science Department in the Universty.
 This website shows you some ways to get to the CS department, what the department entails and more.
 
 The website is made simple clear text. The only in the user interface is English.
