@@ -37,7 +37,7 @@ If the files to be committed have no significant change like untracked files and
 Name:Emmanuel Takyi Obodai  
 ID: 11012438
 
-**Screenshots of the page:**
+**Screenshots of the Webpages:**
 
 ![Screenshot (235).png](Screenshots%2FScreenshot%20%28235%29.png)
 ![Screenshot (237).png](Screenshots%2FScreenshot%20%28237%29.png)
