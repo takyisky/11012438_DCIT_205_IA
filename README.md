@@ -1,13 +1,13 @@
 # 11012438_DCIT_205_IA
 
 **Content**
-1. **Introduction and Purpose of website**
+1. **Introduction and Purpose of Website**
 2. **How To Clone and Setup the Project**
 3. **Details**
 4. **Screenshots of the page**
 5. **What i have learnt from this project**
 
-**Introduction and Purpose of website**  
+**Introduction and Purpose of Website**  
 
 This is a website was created by Emmanuel Takyi Obodai a student of the University of Ghana, on behalf of the Computer Science Department in the University.
 
