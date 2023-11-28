@@ -33,12 +33,11 @@ It seeks to simplify the reachability to the department and its services without
 To add all untracked or modifying files, the command git add -A is used, to commit the command git commit -m is used and finally to push to github the command git push -u is used
 If the files to be committed have no significant change like untracked files and just need to be modified the command commit -a -m is used.
 
-**Details**
-
+**Details**  
 Name:Emmanuel Takyi Obodai  
 ID: 11012438
 
-**Screenshots of the page**
+**Screenshots of the page**  
 ![Screenshot (235).png](Screenshots%2FScreenshot%20%28235%29.png)
 ![Screenshot (237).png](Screenshots%2FScreenshot%20%28237%29.png)
 ![Screenshot (236).png](Screenshots%2FScreenshot%20%28236%29.png)
